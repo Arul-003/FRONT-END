@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Account</title>
+</head>
+<body>
+
+  <h2>Create Account</h2>
+
+  <form>
+    
+    First name: <input type="text" name="firstName" required><br><br>
+    Last name: <input type="text" name="lastName" required><br><br>
+
+    Email: <input type="email" name="email" required><br><br>
+
+    Password: <input type="password" name="password" required><br><br>
+    Confirm Password: <input type="password" name="confirmPassword" required><br><br>
+
+    Gender:
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female<br><br>
+
+    Hobbies:
+    <input type="checkbox" name="hobbies" value="Music"> Music
+    <input type="checkbox" name="hobbies" value="Sports"> Sports
+    <input type="checkbox" name="hobbies" value="Travel"> Travel
+    <input type="checkbox" name="hobbies" value="Movies"> Movies<br><br>
+
+    Source of Income:
+    <select name="incomeSource">
+      <option value="Employed">Employed</option>
+      <option value="Student">Student</option>
+      <option value="Self-employed">Self-employed</option>
+    </select><br><br>
+
+    Income: <input type="range" name="income" min="0" max="100000" step="1000"><br><br>
+
+    Upload Profile Picture:
+    <input type="file" name="profilePic"><br><br>
+
+    Age: <input type="number" name="age" value="18"><br><br>
+
+    Bio:<br>
+    <textarea name="bio" rows="4" cols="30"></textarea><br><br>
+
+    <input type="submit" value="Create">
+  </form>
+
+</body>
+</html>
