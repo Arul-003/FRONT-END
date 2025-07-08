@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 1px solid #ccc;
+}
+.grid-item{
+    background-color: darkcyan;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 5px;
+}
+.grid-contain{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 10px;
+    background-color:whitesmoke ;
+}
+
+.grid-no{
+    background-color: darkcyan;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 5px;
+}
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">S.no</div>
+        <div class="grid-item">Names</div>
+        <div class="grid-item">Price</div>
+    </div>
+    <div class="grid-contain">
+        <div class="grid-no">1</div>
+        <div class="grid-no">comics</div>
+        <div class="grid-no">$19</div>
+    </div>
+</body>
+</html>
